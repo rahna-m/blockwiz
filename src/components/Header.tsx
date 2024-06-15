@@ -1,4 +1,6 @@
+"use client"
 import React from 'react'
+import Image from 'next/image'
 
 const Header = () => {
   return (
@@ -6,15 +8,15 @@ const Header = () => {
     <div className="sticky top-0 bg-black z-100">
         <div className="container flex items-center justify-between px-20 py-5">
             <div className='hidden sm:block'>
-                <a href='/'><img alt='blockwiz_logo' 
-                srcSet='/_next/image?url=%2Fassets%2Fmain_logo.png&w=256&q=75 1x, /_next/image?url=%2Fassets%2Fmain_logo.png&w=384&q=75 2x'
-                src='blockwiz_logo' width="146" height="32"></img></a>
+                <a href='/'><Image alt='blockwiz_logo' 
+                // srcSet='/_next/image?url=%2Fassets%2Fmain_logo.png&w=256&q=75 1x, /_next/image?url=%2Fassets%2Fmain_logo.png&w=384&q=75 2x'
+                src='/blockwiz_logo.png' width="146" height="32"/></a>
             </div>
 
             <div className='sm:hidden block'>
-                <a href='/'><img alt='blockwiz_logo' 
-                srcSet='/_next/image?url=%2Fassets%2Fmain_logo.png&w=128&q=75 1x, /_next/image?url=%2Fassets%2Fmain_logo.png&w=256&q=75 2x'
-                src='blockwiz_logo' width="110" height="24"></img></a>
+                <a href='/'><Image alt='blockwiz_logo' 
+                // srcSet='/_next/image?url=%2Fassets%2Fmain_logo.png&w=128&q=75 1x, /_next/image?url=%2Fassets%2Fmain_logo.png&w=256&q=75 2x'
+                src='/blockwiz_logo.png' width="110" height="24"/></a>
             </div>
 
             <div className='space-x-2 md:space-x-4 '>
