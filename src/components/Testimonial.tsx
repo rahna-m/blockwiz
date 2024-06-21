@@ -54,12 +54,10 @@ function TestimonialSlider() {
                 <Slider ref={sliderRef} {...settings}>
 
                     <div className="bg-[#151515] h-[380px] md:h-[340px] rounded-2xl relative flex flex-col items-center justify-center ">
-                        <div className="space-y-10 flex flex-col items-center justify-center">
-                            <div className=""
-                            // style="opacity:0;transform:translateX(10px) translateZ(0)"
-                            >
+                        <div className="space-y-10 flex flex-col items-center justify-center p-10">
+                            <div className="">
                                 <div className="text-white capitalize leading-7 md:leading-8 text-sm md:text-base font-normal md:text-center md:max-w-lg xl:max-w-xl p-6 md:pb-5 pb-16 md:p-5 md:pt-6 pt-12 sm:h-[180px] h-[290px]">
-                                    Blockwiz offered just what we ordered! Very happy with the rankings. Our conversion rate spiked by 35% within 3 months. We work with only Blockwiz for our content optimization</div>
+                                    mBlockwiz offered just what we ordered! Very happy with the rankings. Our conversion rate spiked by 35% within 3 months. We work with only Blockwiz for our content optimization</div>
                                 <div className="flex flex-col items-center justify-center text-center">
                                     <div className="text-white pb-2 text-xs md:text-base">Yolo Zhang, Overseas Marketing Director</div>
                                     <div className="text-white font-semibold text-2xl">Chainup</div>
@@ -76,7 +74,7 @@ function TestimonialSlider() {
 
 
                     <div className="bg-[#151515] h-[380px] md:h-[340px] rounded-2xl relative flex flex-col items-center justify-center ">
-                        <div className="space-y-10 flex flex-col items-center justify-center">
+                        <div className="space-y-10 flex flex-col items-center justify-center p-10">
                             <div className=""
                             // style="opacity:0;transform:translateX(10px) translateZ(0)"
                             >
@@ -99,7 +97,7 @@ function TestimonialSlider() {
 
 
                     <div className="bg-[#151515] h-[380px] md:h-[340px] rounded-2xl relative flex flex-col items-center justify-center ">
-                        <div className="space-y-10 flex flex-col items-center justify-center">
+                        <div className="space-y-10 flex flex-col items-center justify-center p-10">
                             <div className=""
                             // style="opacity:0;transform:translateX(10px) translateZ(0)"
                             >
@@ -123,7 +121,7 @@ function TestimonialSlider() {
 
 
                     <div className="bg-[#151515] h-[380px] md:h-[340px] rounded-2xl relative flex flex-col items-center justify-center ">
-                        <div className="space-y-10 flex flex-col items-center justify-center">
+                        <div className="space-y-10 flex flex-col items-center justify-center p-10">
                             <div className=""
                             // style="opacity:0;transform:translateX(10px) translateZ(0)"
                             >

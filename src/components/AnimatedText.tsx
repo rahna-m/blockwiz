@@ -10,7 +10,8 @@ const AnimatedSection: React.FC<AnimatedTextProps> = ({ children , animationClas
   const { ref, inView } = useInView({
     /* Optional options */
     //  triggerOnce: true,
-    threshold: 0.6, // Trigger when 50% of the component is in view
+    // threshold: 0.1, 
+    // Trigger when 50% of the component is in view
   });
 
   return (
@@ -20,7 +21,7 @@ const AnimatedSection: React.FC<AnimatedTextProps> = ({ children , animationClas
       //   inView ? 'opacity-100 translate-y-0' : 'opacity-1 translate-y-5'
       // }`}
 
-      className={`transition duration-1000 ${inView ? animationClass : 'opacity-1'}`}
+      className={`transition-all duration-500 ${inView ? animationClass : 'opacity-1'}`}
     >
       {children}
     </div>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Header = () => {
   return (
    
-    <div className="sticky top-0 bg-black z-100">
+    <div style={{zIndex:10000, position:"sticky"}} className="sticky top-0 bg-black z-100">
         <div className="container flex items-center justify-between px-20 py-5">
             <div className='hidden sm:block'>
                 <a href='/'><Image alt='blockwiz_logo' 
